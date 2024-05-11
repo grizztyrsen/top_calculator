@@ -1,0 +1,71 @@
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    width:100vw;
+    height: 100vh;
+}
+
+.outline{
+    display: flex;
+    border: 1px solid #6c7082;
+    border-radius: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 15px;
+    background-color:#b2b9d4;
+}
+
+.titleBox{
+    display: flex;
+    padding-right: 30px;
+}
+
+.first-row{
+    display:flex;
+    justify-content:right;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+}
+
+.btn:hover{
+    border: 2px solid black;
+    font-weight: bolder;
+    background-color: azure;
+}
+
+.btn{
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    background-color:#fafafa;
+    
+    
+}
+
+
+.screen{
+   
+    border: 1px solid #6c7082;
+    border-radius: 10px;
+    width:200px;
+    height:50px;
+    margin-right: 7px;
+    background-color: #fafafa;
+    padding-left: 0px;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items:flex-end;
+}
+
+.previousValue{
+    font-size: 15px;
+    
+}
+
+.currentValue{
+    font-size: 20px;
+}
